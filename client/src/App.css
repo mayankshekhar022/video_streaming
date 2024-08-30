@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+video {
+  width: 45%;
+  border-radius: 10px;
+}
